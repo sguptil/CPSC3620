@@ -1,0 +1,40 @@
+﻿Layout_Incident_Event := RECORD
+	STRING	id;
+	STRING	updatetime;
+	STRING	riitsid;
+	STRING	issuingagency;
+	STRING	onstreet;
+	STRING	latitude;
+	STRING	longitude;
+	STRING	direction;
+	STRING	postmile;
+	STRING	division;
+	STRING	event_type;
+	STRING	severity;
+	STRING	event_status;
+	STRING	description;
+	STRING	affectedlanes;
+	STRING	carcount;
+	STRING	truckcount;
+	STRING	buscount;
+	STRING	othervehcount;
+	STRING	starttime;
+	STRING	fatalities;
+	STRING	possibleinjuries;
+	STRING	issuinguser;
+	STRING	highwaypatrol;
+	STRING	countyfire;
+	STRING	countysheriff;
+	STRING	fire_department;
+	STRING	ambulance;
+	STRING	coroner;
+	STRING	mait;
+	STRING	hazmat;
+	STRING	freewayservicepatrol;
+	STRING	caltransmaint;
+	STRING	caltranstmt;
+	STRING	countysherifftsb
+	STRING	otherresponder;
+	END;
+	
+EXPORT Incident_Event := DATASET('~sguptil::',Layout_Incident_Event,THOR);
