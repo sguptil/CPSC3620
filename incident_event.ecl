@@ -33,7 +33,7 @@
 	STRING	freewayservicepatrol;
 	STRING	caltransmaint;
 	STRING	caltranstmt;
-	STRING	countysherifftsb
+	STRING	countysherifftsb;
 	STRING	otherresponder;
 	END;
 	
